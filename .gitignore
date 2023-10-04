@@ -1,0 +1,57 @@
+# Python
+*.pyc
+*.pyo
+*.egg
+*.egg-info
+dist/
+build/
+info/
+develop-eggs/
+downloads/
+eggs/
+parts/
+bin/
+var/
+sdist/
+__pycache__/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/Gemfile.lock
+/lib/bundler/man/
+/ruby-version
+/.ruby-gemset
+/tmp/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.ctxt
+*.jar.pack
+
+# Others
+*.bak
+*.swp
+*.swo
+*.tmp
+*.temp
+*.tlog
+*.spi
+
+# Directories Excluded
+/output/
+/build/
