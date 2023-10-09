@@ -55,6 +55,8 @@ def min_steps(str1, str2, il=0, i2=0):
                         min_steps(str1, str2, i1+1, i2+1), # Swap
                         min_steps(str1, str2, i1, i2+1)) # Inserted
 
+# To remove duplication from the above code, use MEMOIZATION
+# 
 def min_edit_distance_memo(str1, str2):
     memo = {}
     def recurse(i1, i2):

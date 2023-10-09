@@ -1,0 +1,36 @@
+### Classes
+```cpp
+CLASSES:
+class MyClass {       // The class
+  public:             // Access specifier (private, public or protected)
+    int myNum;        // Attribute (int variable)
+    string myString;  // Attribute (string variable)
+    Member Functions(){} // Methods to access data members
+};
+```
+### Polymorphism
+```cpp
+// Base class
+class Animal {
+  public:
+    void animalSound() {
+      cout << "The animal makes a sound \n";
+    }
+};
+
+// Derived class
+class Pig : public Animal {
+  public:
+    void animalSound() {
+      cout << "The pig says: wee wee \n";
+    }
+};
+
+// Derived class
+class Dog : public Animal {
+  public:
+    void animalSound() {
+      cout << "The dog says: bow wow \n";
+    }
+};
+```
